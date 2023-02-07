@@ -124,7 +124,7 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
+.d-bloc a ,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -135,6 +135,9 @@ a:hover {
 .d-bloc h6 a,
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
+}
+.icon-md{
+    color: #FFFFFF;
 }
 
 .d-bloc .a-btn:hover,
@@ -656,12 +659,13 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 .espacement_footer{
-    color: #FFFFFF!;
+    font-size: 18px;
+    color: #000000;
     font-weight: 700;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 .container {
     max-width: 1000px;
@@ -795,7 +799,7 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
+.bgc-dark-slate-blue {tc-white-contact
     background-color: #364577;
 }
 
