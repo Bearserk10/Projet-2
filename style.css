@@ -376,7 +376,7 @@ a:hover {
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
-        color: #484848;
+        color: #000000;
     }
     .nav-invert .site-navigation {
         left: 0;
@@ -656,9 +656,11 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #FFFFFF!important;
 }
 .espacement_footer{
+    color: #FFFFFF!;
+    font-weight: 700;
     margin-top: 15px;
 }
 .container {
@@ -709,6 +711,7 @@ p {
 }
 
 .social {
+    color: #000000!important;
     max-width: 400px;
     margin: auto auto auto auto;
 }
